@@ -1,10 +1,19 @@
 import React from "react";
+import "../styles/Controls.css";
 
 function Controls({ handleRoll, handleHold }) {
   return (
-    <div>
-      <button onClick={handleHold}> Hold</button>
-      <button onClick={handleRoll}>Roll</button>
+    <div className="control-main">
+      <div className="hold-btn-container">
+        <button className="hold-btn" onClick={handleHold}>
+          Hold
+        </button>
+      </div>
+      <div className="roll-btn-container">
+        <button className="roll-btn" onClick={handleRoll}>
+          Roll
+        </button>
+      </div>
     </div>
   );
 }

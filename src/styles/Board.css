@@ -1,9 +1,32 @@
 .main-board {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
   height: 100vh;
   width: 100vw;
   background-color: grey;
+}
+.a {
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.b {
+  background-color: green;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.middle-line {
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

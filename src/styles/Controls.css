@@ -1,0 +1,22 @@
+.control-main {
+  width: 100vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hold-btn-container {
+  z-index: 1;
+}
+.roll-btn-container {
+  z-index: 1;
+}
+
+.hold-btn {
+  height: 50px;
+  width: 100px;
+}
+.roll-btn {
+  height: 50px;
+  width: 100px;
+}

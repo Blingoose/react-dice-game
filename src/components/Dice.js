@@ -1,6 +1,6 @@
 import "../styles/Dice.css";
 
-function Dice({ handleRoll, handleHold, delieverDice }) {
+function Dice({ delieverDice }) {
   const firstDieImage = `./img/${delieverDice[0] ? delieverDice[0] : 2}.png`;
   const secondDieImage = `./img/${delieverDice[1] ? delieverDice[1] : 3}.png`;
 

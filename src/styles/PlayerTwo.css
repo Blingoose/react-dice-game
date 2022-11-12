@@ -1,0 +1,8 @@
+.player-container {
+  width: 20%;
+  height: 20%;
+  background-color: rgb(25, 27, 25);
+}
+.player-two {
+  z-index: 1;
+}

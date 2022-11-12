@@ -1,9 +1,9 @@
 import React from "react";
-// import "../styles/PlayerTwo.css";
+import "../styles/PlayerTwo.css";
 function PlayerTwo() {
   return (
     <div className="player-container">
-      <div className="player1">P1</div>
+      <div className="player-two">P1</div>
     </div>
   );
 }
