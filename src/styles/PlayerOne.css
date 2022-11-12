@@ -1,0 +1,6 @@
+.player-container {
+  width: 20%;
+  height: 20%;
+  background-color: green;
+  /* z-index: -1; */
+}
