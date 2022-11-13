@@ -5,11 +5,11 @@
   height: 100vh;
   width: 100vw;
   background-color: #903749;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .a {
   background-color: #e84545;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
   position: absolute;
   left: 0;
   width: 50%;
@@ -18,7 +18,7 @@
 
 .b {
   background-color: #e84545;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
   position: absolute;
   right: 0;
   width: 50%;
