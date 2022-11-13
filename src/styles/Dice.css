@@ -12,8 +12,8 @@
 
 .dice-img {
   z-index: 1;
-  width: 100px;
-  height: 100px;
+  min-width: 8vw;
+  height: 14vh;
   margin-bottom: 10px;
   border-radius: 10px;
 }

@@ -13,10 +13,22 @@
 }
 
 .hold-btn {
+  border: 1px solid #fff999;
+  background-color: #53354a;
   height: 50px;
   width: 100px;
+  border-radius: 7px;
+  margin-right: 2px;
+  color: white;
+  font-size: 18px;
 }
 .roll-btn {
+  border: 1px solid #fff999;
+  background-color: #53354a;
   height: 50px;
   width: 100px;
+  border-radius: 7px;
+  margin-left: 2px;
+  color: white;
+  font-size: 18px;
 }

@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/PlayerTwo.css";
-function PlayerTwo() {
+function PlayerTwo({ handleScore }) {
   return (
-    <div className="player-container">
-      <div className="player-two">P1</div>
+    <div className="player2-container">
+      <h1>Player Two</h1>
+      <div className="stats2">
+        <h3>Current Score:</h3>
+        <p>{handleScore[1].currentScore}</p>
+        <h3>Total Score:</h3>
+        <p>{handleScore[1].totalScore}</p>
+      </div>
     </div>
   );
 }

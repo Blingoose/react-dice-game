@@ -12,11 +12,11 @@ function Game() {
     players: [
       {
         currentScore: 0,
-        TotalScore: 0,
+        totalScore: 0,
       },
       {
         currentScore: 0,
-        TotalScore: 0,
+        totalScore: 0,
       },
     ],
   });
@@ -66,7 +66,7 @@ function Game() {
   function handleHold() {
     const { players, playersTurn } = state;
     const playersObj = [...players];
-    playersObj[playersTurn].TotalScore = playersObj[playersTurn].currentScore;
+    playersObj[playersTurn].totalScore = playersObj[playersTurn].currentScore;
     playersObj[playersTurn].currentScore = 0;
     setState((prevVal) => {
       return {
@@ -84,6 +84,8 @@ function Game() {
         handleRoll={rollDice}
         handleHold={handleHold}
         delieverDice={state.dice}
+        handleScore={state.players}
+        handleTurn={state.playersTurn}
       />
     </div>
   );

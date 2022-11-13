@@ -5,17 +5,22 @@ import PlayerOne from "./PlayerOne";
 import PlayerTwo from "./PlayerTwo";
 import "../styles/Board.css";
 
-function Board({ handleRoll, handleHold, delieverDice }) {
+function Board({
+  handleRoll,
+  handleHold,
+  delieverDice,
+  handleScore,
+  handleTurn,
+}) {
   return (
     <div className="main-board">
-      <div className="a"></div>
-      <div className="b"></div>
-      <PlayerOne />
+      <div className={handleTurn === 0 ? "a" : "b"}></div>
+      <PlayerOne handleScore={handleScore} />
       <div className="middle-line">
         <Dice delieverDice={delieverDice}></Dice>
         <Controls handleRoll={handleRoll} handleHold={handleHold} />
       </div>
-      <PlayerTwo />
+      <PlayerTwo handleScore={handleScore} />
     </div>
   );
 }
